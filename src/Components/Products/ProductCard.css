@@ -1,0 +1,17 @@
+.ProductCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+img{
+    width:10rem;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

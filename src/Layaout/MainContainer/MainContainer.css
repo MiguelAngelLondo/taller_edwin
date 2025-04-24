@@ -1,6 +1,8 @@
 .MainContainer{
     background-color: rgb(68, 158, 218);
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;  
+    flex-wrap: wrap;
+
 }

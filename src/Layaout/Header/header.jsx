@@ -1,13 +1,17 @@
 import React from 'react'
 import './header.css'
-import { SearchFilter } from '../../Components/UI/SearchFilter'
-export const Header = () => {
+
+export const Header = ({ search, setSearch }) => {
   return (
-   <>
-   <div className="Header">
-    <h1>Products</h1>
-    <SearchFilter/>
-   </div>
-   </>
+    <header className="header">
+      <h1>Product Store</h1>
+      <input
+        type="text"
+        placeholder="Search products..."
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        className="search-input"
+      />
+    </header>
   )
 }
