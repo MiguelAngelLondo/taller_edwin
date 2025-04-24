@@ -1,8 +1,27 @@
-.MainContainer{
+.MainContainer {
     background-color: rgb(68, 158, 218);
     width: 100%;
-    height: 100%;
-    display: flex;  
+    min-height: 100vh;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ProductCard {
+    flex: 1 1 calc(25% - 20px); 
+    max-width: calc(25% - 20px);
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
