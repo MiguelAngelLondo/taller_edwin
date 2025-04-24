@@ -3,8 +3,8 @@ import './Footer.css'
 
 export const Footer = () => {
     return (
-        <div className="Footer">
-            
-        </div>
-    );
+        <footer>
+            <p>© 2025 Product Store. All rights reserved.</p>
+        </footer>
+    )
 }

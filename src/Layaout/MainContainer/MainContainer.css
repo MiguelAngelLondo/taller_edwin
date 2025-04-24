@@ -1,12 +1,10 @@
 .MainContainer {
     background-color: rgb(68, 158, 218);
     width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    height: fit-content;
+    padding: 40px 20px;
+    margin-top: 20px; /* Espacio debajo del Header */
+    margin-bottom: 20px; /* Espacio encima del Footer */
 }
 
 .products {
@@ -17,8 +15,10 @@
 }
 
 .ProductCard {
-    flex: 1 1 calc(25% - 20px); 
-    max-width: calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    max-width: 300px;
     box-sizing: border-box;
     background-color: white;
     border-radius: 8px;
