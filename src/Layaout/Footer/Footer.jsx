@@ -4,7 +4,7 @@ import './Footer.css'
 export const Footer = () => {
     return (
         <footer>
-            <p>© 2025 Product Store. All rights reserved.</p>
+            <p>Miguel Angel Londoño Marulanda <strong>🎃</strong></p>
         </footer>
     )
 }
